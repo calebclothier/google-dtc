@@ -5,8 +5,8 @@ from qiskit import *
 from statsmodels.graphics.tsaplots import plot_acf
 
 N_QUBITS = 20
-G = 0.6
-T = 20
+G = 0.98
+T = 40
 
 class DiscreteTimeCrystal:
 
